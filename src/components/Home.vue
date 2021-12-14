@@ -4,7 +4,7 @@
     <span class="heading1"> <h2>Welcome to K-Solutions !</h2> </span>
     <span class="heading2"><h4>RESHAPING THE 'IT' WORLD !</h4> </span>
     <p class="text">
-        Established in 2021, we have quickly expanded our operations globally and
+        <b>Established in 2021, we have quickly expanded our operations globally and
       served customers from Europe, Asia and many others. <br/>
       We strive to provide you with the best solutions to your business system needs. 
       As our client, we place great emphasis and focus on your problems and goals and
@@ -13,21 +13,21 @@
       as your long-term partner. As partners, we will ensure your business needs
       are carefully evaluated and will decide the best methods to represent your
       company, and develop a strong and effective solution for your business
-      that will have an enduring impact.!
+      that will have an enduring impact.! </b>
     </p>
     <div>
       <div class="card">
         <div class="card-image"></div>
         <div class="card-text"></div>
-        <h3>Our Vision</h3>
-        Go Digital: every business must become digital
+        <h4>Our Vision</h4>
+        Go Digital: <br/> Every business must become digital
       </div>
 
       <div>
         <div class="card1">
           <div class="card-image1"></div>
           <div class="card-text1"></div>
-          <h3>Our Mission</h3>
+          <h4>Our Mission</h4>
           Enhance business growth of our customers with creative design and
           development
         </div>
@@ -36,8 +36,9 @@
           <div class="card2">
             <div class="card-image2"></div>
             <div class="card-text2"></div>
-            <h3>Our Values</h3>
-            Team Work, Ethics, Responsibility and Transparency
+            <h4>Our Values</h4>
+            Team Work, Ethics, Responsibility 
+            <br/> and Transparency
           </div>
         </div>
 
@@ -45,8 +46,8 @@
           <div class="card3">
             <div class="card-image3"></div>
             <div class="card-text3"></div>
-            <h3>Our Values</h3>
-            Team Work, Ethics, Responsibility and Transparency
+            <h4>Our Goals and Objectives</h4>
+           Innovation, Best customer Service and <br/> ensure 100% Compliance
           </div>
         </div>
       </div>
@@ -66,23 +67,19 @@ export default {
 </script>
 
 <style scoped>
-.heading1 {
-  color: black;
-}
+
 body {
   background-color: grey;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
 }
-.p {
-  background-color: black;
-  color:white;
+.main p {  
+  color:black ;
+  text-align:justify;
 }
 
 .heading2,
 .heading1 {
   color: black;
-  background-color: black;
-  text-shadow: 1px 1px 1px black;
   font-size: large;
   text-align: center;
   text-shadow: 1px 1px 1px skyblue;
@@ -92,12 +89,11 @@ body {
 .card1,
 .card2,
 .card3 {
-  float: left;
-  border: 2px solid black;
+  float: left; 
   display: grid;
   margin: 15px;
   padding: 2px;
-  border: 2px solid black;
+  border: 2px solid grey;
   grid-template-columns: 240px;
   grid-template-rows: 120px 30px;
   grid-template-areas: "image" "text";

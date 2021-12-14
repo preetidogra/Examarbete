@@ -1,4 +1,5 @@
 <template>
+  <br/>
   <h3>Kindly contact us for any Queries/ Business Enquiries</h3>
 
   <div class="card">
@@ -42,10 +43,15 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 h3 {
-  padding: 15px;
-  margin: 5px;
+ 
+  color: white;
+  background-color: black;
+  text-shadow: 1px 1px 1px lightblue;
+  font-size: large;
   text-align: center;
-}
+  padding:18px;
+ }
+
 .card,
 .card1,
 .card2,

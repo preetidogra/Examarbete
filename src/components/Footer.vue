@@ -19,9 +19,8 @@ export default {
 
 <style scoped>
 footer {
-  margin-top: 400px;
-  margin-bottom:40px;
-  padding: 10px;
+  margin-top: 450px;
+    padding: 10px;
   background-color: black;
   color: white;
   text-align: center;
