@@ -1,20 +1,19 @@
 <template>
   <div id="app">
-    <router-view />
-    
+    <router-view /> 
+      
     <Footer/>
   </div>
 </template>
 
 <script>
-//import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
-//import pic from '../src/assets/pic.jpg'
+//import SignIn from './components/SignIn.vue'
 
 export default {
   name: "App",
   components: {
-    Footer   
+    Footer
   },
 }
    

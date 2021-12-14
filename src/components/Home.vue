@@ -1,3 +1,4 @@
+<!-- template tag has the HTML files or objects -->
 <template>
   <Header />
   <div class="main">
@@ -55,7 +56,9 @@
   </div>
 </template>
 
+<!-- the template objects are exported in the script tags -->
 <script>
+
 import Header from "./Header.vue";
 
 export default {

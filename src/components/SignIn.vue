@@ -1,12 +1,12 @@
 <template>
-  <img class="logo" src="../assets/pic.jpg" />
+  
   <h3>Sign-in</h3>
 
   <div class="register">
-    <input type="text" placeholder="Enter Username" />
-    <input type="text" placeholder="Enter Email" />
-    <input type="password" placeholder="Enter Password" />
-    <button>Register here</button>
+    <input type="text" v-model="name" placeholder="Enter Username" />
+    <input type="text" v-model="email" placeholder="Enter Email" />
+    <input type="password" v-model="password" placeholder="Enter Password" />
+    <button v-on:click="signin"> Sign In </button>
     <p>
       <router-link to="/login"> GoTo Login </router-link>
     </p>
@@ -14,16 +14,22 @@
 </template>
 
 <script>
+//import axios from 'axios'
+
 export default {
   name: "SignIn",
-};
+  data() {
+    return {
+      name:"",
+      email:"",
+      password:"",
+    }
+  }}
+ 
 </script>
 
 <style scoped>
-.logo {
-  width: 300px;
-  height: 130px;
-}
+
 .register input {
   width: 300px;
   padding-left: 20px;

@@ -32,8 +32,11 @@ const routes = [
         component: Login,
         path: "/login",
     },
+    
 
 ];
+
+//create router is a function which has 2 parametrs
 const router = createRouter({
     history:createWebHistory(),
     routes
