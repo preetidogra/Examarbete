@@ -1,28 +1,30 @@
 <template>
-  <div id="app">
-    <router-view />
-    
-    <Footer/>
+  <img class="logo" src="../assets/pic.jpg" />
+  <h3>Sign-in</h3>
+
+  <div class="register">
+    <input type="text" placeholder="Enter Username" />
+    <input type="text" placeholder="Enter Email" />
+    <input type="password" placeholder="Enter Password" />
+    <button>Register here</button>
+    <p>
+      <router-link to="/login"> GoTo Login </router-link>
+    </p>
   </div>
 </template>
 
 <script>
-//import Header from "./components/Header.vue";
-import Footer from "./components/Footer.vue";
-//import pic from '../src/assets/pic.jpg'
-
 export default {
-  name: "App",
-  components: {
-    Footer   
-  },
-}
-   
+  name: "SignIn",
+};
 </script>
 
-
 <style scoped>
-.register input, login input {
+.logo {
+  width: 300px;
+  height: 130px;
+}
+.register input {
   width: 300px;
   padding-left: 20px;
   height: 30px;
@@ -36,7 +38,7 @@ export default {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-.register button, login button {
+.register button {
   background-color: skyblue;
   color: black;
   padding: 10px;
