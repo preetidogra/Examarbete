@@ -121,14 +121,14 @@ body {
 }
 .card-image {
   grid-area: image;
-  background: url("../assets/services1.jpg");
+  background: url("../assets/vision.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
 }
 .card-image1 {
   grid-area: image;
-  background: url("../assets/services.jpg");
+  background: url("../assets/services1.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;

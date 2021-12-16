@@ -8,7 +8,6 @@
 
 <script>
 import Footer from "./components/Footer.vue";
-//import SignIn from './components/SignIn.vue'
 
 export default {
   name: "App",

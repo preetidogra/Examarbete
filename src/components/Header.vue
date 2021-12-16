@@ -3,8 +3,9 @@
     <router-link to="/"> Home </router-link>
     <router-link to="/services"> Services </router-link>
     <router-link to="/contact" > Contact Us </router-link>
-    <a v-on:click="logout" href="#"> Login </a>
-    <a v-on:click="logout" href="#"> LogOut </a>
+    
+    <router-link to="/login"> Log in </router-link>
+    <router-link to="/logout"> LogOut </router-link>
     
   </div>
 </template>
@@ -12,7 +13,15 @@
 
 <script>
 export default  {
-      name: "Header" 
+      name: "Header" ,
+      methods: {
+        logout()
+        {
+          console.warn("You are logged out");
+          localStorage.clear();
+          this.$router.push({name:'Home'})
+        }
+      }
       
     }
 

@@ -43,6 +43,7 @@ export default {
   name: "Services",
 };
 </script>
+
 <style scoped>
 body {
   background-color: grey;
@@ -97,21 +98,21 @@ h3 {
 }
 .card-image {
   grid-area: image;
-  background: url("../assets/vision.jpg");
+  background: url("../assets/pic3.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
 }
 .card-image1 {
   grid-area: image;
-  background: url("../assets/expertise.jpg");
+  background: url("../assets/products.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
 }
 .card-image2 {
   grid-area: image;
-  background: url("../assets/products.jpg");
+  background: url("../assets/pic.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;

@@ -11,7 +11,7 @@ export default {
   name: "Footer",
   data() {
     return {
-      title: " K-Solutions @2021 .Inc",
+      title: " © K-Solutions Sweden. 2021, All rights reserved.",
     };
   },
 };
