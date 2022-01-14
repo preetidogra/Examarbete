@@ -1,15 +1,16 @@
+// routing path to all the URLs
+
 <template>
   <div class="header">
     <router-link to="/"> Home </router-link>
     <router-link to="/services"> Services </router-link>
-    <router-link to="/contact" > Contact Us </router-link>
-    
+    <router-link to="/contact" > Contact Us </router-link>    
     <router-link to="/login"> Log in </router-link>
+    <router-link to="/signup"> SignUp </router-link>    
     <router-link to="/logout"> LogOut </router-link>
     
   </div>
 </template>
-
 
 <script>
 export default  {
@@ -18,8 +19,7 @@ export default  {
         logout()
         {
           console.warn("You are logged out");
-          localStorage.clear();
-          this.$router.push({name:'Home'})
+          
         }
       }
       

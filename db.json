@@ -1,8 +1,88 @@
 {
-    "user":[
-        {"name": "preeti", "email": "preeti@test.com", "password": "preeti@123", "id": 1}
-
-        {"name": "campus", "email": "campus@test.com", "password": "campus@123", "id": 2}
-    ]
-  }
-
+  "user": [
+    {
+      "name": "preeti",
+      "email": "preeti@test.com",
+      "password": "batman123",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "peter@test.com",
+      "password": "peter123",
+      "id": 2
+    },
+    {
+      "name": "bruce",
+      "email": "bruce@test.com",
+      "password": "bruce123",
+      "id": 3
+    },
+    {
+      "email": "qdkjdhqewi@test.com",
+      "password": "lasjf",
+      "name": "ajsd",
+      "id": 4
+    },
+    {
+      "email": "QDhqeud@test.com",
+      "password": "aliJWDq",
+      "name": "ajdQ",
+      "id": 5
+    },
+    {
+      "name": "mark",
+      "email": "mark@test.com",
+      "password": "mark123",
+      "id": 6
+    },
+    {
+      "email": "rahul@test.com",
+      "password": "rahul123",
+      "name": "rahul",
+      "id": 7
+    },
+    {
+      "email": "rahul@test.com",
+      "password": "rahul123",
+      "name": "rahul",
+      "id": 8
+    },
+    {
+      "name": "petre",
+      "email": "petre@test.com",
+      "password": "petre123",
+      "id": 9
+    },
+    {
+      "email": "Preeti@test.com",
+      "password": "Preet000",
+      "name": "preeti",
+      "id": 10
+    },
+    {
+      "email": "Preeti@test.com",
+      "password": "preeti000",
+      "name": "Preeti",
+      "id": 11
+    },
+    {
+      "name": "petre",
+      "email": "petre@test.com",
+      "password": "petre123",
+      "id": 12
+    },
+    {
+      "email": "preeti@test.com",
+      "password": "lialsjhcusd",
+      "name": "preeti",
+      "id": 13
+    },
+    {
+      "name": "marc",
+      "email": "marc@test.com",
+      "password": "marcjsdsbfsdjö123",
+      "id": 14
+    }
+  ]
+}

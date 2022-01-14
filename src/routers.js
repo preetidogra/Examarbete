@@ -4,6 +4,7 @@ import Home from './components/Home.vue'
 import Contact from './components/Contact.vue'
 import Services from './components/Services.vue'
 import Logout from './components/Logout.vue'
+import Signup from './components/Signup.vue'
 
 const routes = [
     {// different objects of the routes
@@ -11,12 +12,16 @@ const routes = [
         name: "Home",
         component: Home,
         path: "/",
-    },
-  
+    },  
     {
         name: "Services",
         component: Services,
         path: "/services",
+    },
+    {
+        name: "Signup",
+        component: Signup,
+        path: "/signup",
     },
     {
         name: "Contact",

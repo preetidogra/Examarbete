@@ -14,7 +14,8 @@
     <div class="card-image1"></div>
     <div class="card-text1"></div>
     <h4>Our Expertise</h4>
-    <h5>Project Management <br />Backend <br />FrontEnd <br />QA / TestingDevOps
+    <h5>
+      Project Management <br />Backend <br />FrontEnd <br />QA / TestingDevOps
     </h5>
   </div>
 

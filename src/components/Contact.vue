@@ -1,6 +1,6 @@
 <template>
-  <br/>
-  <h3>Kindly contact us for any Queries/ Business Enquiries</h3>
+  <br />
+  <h3>Kindly contact us for any Queries/ Business Enquiries ...</h3>
 
   <div class="card">
     <div class="card-image"></div>
@@ -13,22 +13,21 @@
     <div class="card-image1"></div>
     <div class="card-text1"></div>
     <span class="contact"> Email</span>
-    <h4>info@ksolutions.com</h4>
+    <h4>info@techsolutions.com</h4>
   </div>
 
   <div class="card2">
     <div class="card-image2"></div>
     <div class="card-text2"></div>
     <span class="contact"> Instagram</span>
-    <h4> @K-Solutions  </h4>   
+    <h4>@tech-Solutions</h4>
   </div>
 
   <div class="card3">
     <div class="card-image3"></div>
     <div class="card-text3"></div>
     <span class="contact"> Twitter</span>
-    <h4> @K-Solutions  </h4>
-   
+    <h4>@tech-Solutions</h4>
   </div>
 </template>
 
@@ -43,14 +42,13 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 h3 {
- 
   color: white;
   background-color: black;
   text-shadow: 1px 1px 1px lightblue;
   font-size: large;
   text-align: center;
-  padding:18px;
- }
+  padding: 18px;
+}
 
 .card,
 .card1,
@@ -103,7 +101,8 @@ h3 {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
-}.card-image3 {
+}
+.card-image3 {
   grid-area: image;
   background: url("../assets/twitter.jpg");
   border-top-left-radius: 15px;

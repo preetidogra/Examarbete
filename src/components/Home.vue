@@ -2,26 +2,29 @@
 <template>
   <Header />
   <div class="main">
-    <span class="heading1"> <h2>Welcome to K-Solutions !</h2> </span>
+    <span class="heading1"> <h2>Welcome to Tech-Solutions !</h2> </span>
     <span class="heading2"><h4>RESHAPING THE 'IT' WORLD !</h4> </span>
     <p class="text">
-        <b>Established in 2021, we have quickly expanded our operations globally and
-      served customers from Europe, Asia and many others. <br/>
-      We strive to provide you with the best solutions to your business system needs. 
-      As our client, we place great emphasis and focus on your problems and goals and
-      develop solutions that best fits your needs. We offer strong and effective
-      solutions to your business with an enduring impact. We think of ourselves
-      as your long-term partner. As partners, we will ensure your business needs
-      are carefully evaluated and will decide the best methods to represent your
-      company, and develop a strong and effective solution for your business
-      that will have an enduring impact.! </b>
+      <b
+        >Established in 2021, we have quickly expanded our operations globally
+        and served customers from Europe, Asia and many others. <br />
+        We strive to provide you with the best solutions to your business system
+        needs. As our client, we place great emphasis and focus on your problems
+        and goals and develop solutions that best fits your needs. We offer
+        strong and effective solutions to your business with an enduring impact.
+        We think of ourselves as your long-term partner. As partners, we will
+        ensure your business needs are carefully evaluated and will decide the
+        best methods to represent your company, and develop a strong and
+        effective solution for your business that will have an enduring impact.!
+      </b>
     </p>
     <div>
       <div class="card">
         <div class="card-image"></div>
         <div class="card-text"></div>
         <h4>Our Vision</h4>
-        Go Digital: <br/> Every business must become digital
+        Go Digital: <br />
+        Every business must become digital
       </div>
 
       <div>
@@ -38,8 +41,9 @@
             <div class="card-image2"></div>
             <div class="card-text2"></div>
             <h4>Our Values</h4>
-            Team Work, Ethics, Responsibility 
-            <br/> and Transparency
+            Team Work, Ethics, Responsibility
+            <br />
+            and Transparency
           </div>
         </div>
 
@@ -48,7 +52,8 @@
             <div class="card-image3"></div>
             <div class="card-text3"></div>
             <h4>Our Goals and Objectives</h4>
-           Innovation, Best customer Service and <br/> ensure 100% Compliance
+            Innovation, Best customer Service and <br />
+            ensure 100% Compliance
           </div>
         </div>
       </div>
@@ -58,7 +63,6 @@
 
 <!-- the template objects are exported in the script tags -->
 <script>
-
 import Header from "./Header.vue";
 
 export default {
@@ -70,14 +74,14 @@ export default {
 </script>
 
 <style scoped>
-
 body {
   background-color: grey;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.main p {  
-  color:black ;
-  text-align:justify;
+.main p {
+  color: black;
+  text-align: justify;
 }
 
 .heading2,
@@ -92,7 +96,7 @@ body {
 .card1,
 .card2,
 .card3 {
-  float: left; 
+  float: left;
   display: grid;
   margin: 15px;
   padding: 2px;

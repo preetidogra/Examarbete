@@ -1,8 +1,9 @@
 <template>
   <footer>
     <p>
-      {{ title }}
+      {{ title }}      
     </p>
+   
   </footer>
 </template>
 
@@ -11,7 +12,7 @@ export default {
   name: "Footer",
   data() {
     return {
-      title: " © K-Solutions Sweden. 2021, All rights reserved.",
+      title: " © Tech-Solutions Sweden. 2021, All rights reserved.",
     };
   },
 };
@@ -20,7 +21,7 @@ export default {
 <style scoped>
 footer {
   margin-top: 450px;
-    padding: 10px;
+  padding: 10px;
   background-color: black;
   color: white;
   text-align: center;
